@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        Container
+    </div>
+    <div class="container-fluid">
+        Contenedor fluido
+    </div>
+    <h2>
+        Ancho
+    </h2>
+    <div class="vw-100 bg-secondary">
+        100Vw
+    </div>
+    <div class="w-100 bg-danger">
+        W-100
+    </div>
+
+    <div class="w-75 bg-warning">
+        W-75
+    </div>
+    <div class="w-50 bg-success">
+        W-50
+    </div>
+    <div class="w-25 bg-primary">
+        W-25
+    </div>
+    <hr />
+    <h2>
+        Altura
+    </h2>
+    <div class="bg-primary">
+        <div class="h-100 bg-secondary">
+            100%
+        </div>
+        <div class="h-75 bg-danger">
+            75%
+        </div>
+        <div class="h-50 bg-info">
+            50%
+        </div>
+        <div class="h-25 bg-success">
+            25%
+        </div>
+    </div>
+
+    <!-- 
+        / proporciones(ancho-alto) 
+        / paddings-margenes 
+        / display ´
+        / fondos 
+     -->
+    <h2>
+        Texto
+    </h2>
+    <div>
+        Tamaño
+        <h1 class="fs-1">
+            fs-1
+        </h1>
+        <h2 class="fs-2">
+            fs-2
+        </h2>
+        <h3 class="fs-3">
+            fs-3
+        </h3>
+        <h4 class="fs-4">
+            fs-4
+        </h4>
+        <h5 class="fs-5">
+            fs-5
+        </h5>
+        <p class="fs-6">
+            fs-6
+        </p>
+    </div>
+    <div>
+        Peso
+        <p class="fw-lighter">
+            fs-lighter Ligero
+        </p>
+        <p class="fw-normal">
+            fs-normal Normal
+        </p>
+        <p class="fw-medium">
+            fs-medium Medium
+        </p>
+        <p class="fw-semibold">
+            fw-semibold Medio negrita
+        </p>
+        <p class="fw-bold">
+            fw-bold Bold/Negrita
+        </p>
+        <p class="fw-bolder">
+            fw-bolder Mas negrita
+        </p>
+    </div>
+    <div>
+        Font Style
+        <p class="fst-italic">
+            fst-italic Texto cursivo
+        </p>
+        <p class="fst-normal">
+            fst-normal Texto No Cursivo(Normal)
+        </p>
+    </div>
+
+    <div>
+        Colores
+        <p class="text-primary">
+            .text-primary Principal
+        </p>
+        <p class="text-secondary">
+            .text-secondary Texto secundario
+        </p>
+        <p class="text-danger">
+            .text-danger ROJO
+        </p>
+        <p class="text-success">
+            .text-success
+        </p>
+        <p class="text-warning">
+            .text-warning
+        </p>
+        <p class="text-info">
+            .text-info
+        </p>
+        <p class="text-pale-pink fw-bold">
+            .text-custom de css personalizado
+        </p>
+    </div>
+    <hr>
+
+    <div>
+        <h2>
+            Espaciadores margin padding
+        </h2>
+        <div class="bg-primary">
+            Margenes
+            <div class="m-1">
+                Margen 1
+            </div>
+            <div class="m-2">
+                Margen 2
+            </div>
+            <div class="m-3">
+                Margen 3
+            </div>
+            <div class="m-4">
+                Margen 4
+            </div>
+            <div class="m-5">
+                Margen 5
+            </div>
+            <div class="my-5">
+                Margen eje Y(1 - 5)
+            </div>
+            <div class="mx-5">
+                Margen eje X(1 - 5)
+            </div>
+            <div class="mt-5">
+                Margen Arriba
+            </div>
+            <div class="mb-5">
+                Margen abajo
+            </div>
+            <div class="ms-5">
+                Margen izquierda(ms margin start)
+            </div>
+            <div class="me-5">
+                Margen derecha(me margin end)
+            </div>
+        </div>
+        <div class="bg-danger">
+            Padding / acolchado /
+            <div class="p-1">
+                padding 1
+            </div>
+            <div class="p-2">
+                padding 2
+            </div>
+            <div class="p-3">
+                padding 3
+            </div>
+            <div class="p-4">
+                padding 4
+            </div>
+            <div class="p-5">
+                padding 5
+            </div>
+            <div class="py-5">
+                padding eje Y(1 - 5)
+            </div>
+            <div class="px-5">
+                padding eje X(1 - 5)
+            </div>
+            <div class="pt-5">
+                padding Arriba
+            </div>
+            <div class="pb-5">
+                padding abajo
+            </div>
+            <div class="ps-5">
+                padding izquierda(ms margin start)
+            </div>
+            <div class="pe-5">
+                padding derecha(me margin end)
+            </div>
+        </div>
+    </div>
+
+    <!-- d-flex display: flex; -->
+    <!-- justify-content: eje-x -->
+    <!-- align-items: eje-y -->
+    <!-- flex froggy -->
+
+    <div class="d-flex gap-2">
+        <div>
+            Soy
+        </div>
+        <div>
+            Flex
+        </div>
+        <div>
+            Tambien soy flex
+        </div>
+    </div>
+    <div class="d-flex flex-column align-items-center">
+        <div>
+            Ahora
+        </div>
+        <div>
+            Soy
+        </div>
+        <div>
+            Columna
+        </div>
+    </div>
+
+    <!-- GRID -->
+    <!-- Mobile: en el telefono -->
+    <!-- Danger: rojo , warning: amarillo, primary: azul -->
+
+    <!-- 
+        sm: small(telefonos), 
+        md: medium(mini-laptops, tables), 
+        lg: large(laptops, tablets horizontales), 
+        xl: extra-large(pcs grandes 22" 27")
+        xxl: extra extra large(pcs muy grande 27 > ) 
+    -->
+    <!-- <div class="row">
+        <div class="col-12 col-md-6 col-lg-4 p-0 bg-primary">
+            <img src="https://picsum.photos/300/300" class="w-100 object-fit-cover" alt="">
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 p-0 bg-primary">
+            <img src="https://picsum.photos/300/301" class="w-100 object-fit-cover" alt="">
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 p-0 bg-primary">
+            <img src="https://picsum.photos/300/302" class="w-100 object-fit-cover" alt="">
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 p-0 bg-primary">
+            <img src="https://picsum.photos/300/303" class="w-100 object-fit-cover" alt="">
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 p-0 bg-primary">
+            <img src="https://picsum.photos/300/304" class="w-100 object-fit-cover" alt="">
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 p-0 bg-primary">
+            <img src="https://picsum.photos/300/305" class="w-100 object-fit-cover" alt="">
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 p-0 bg-primary">
+            <img src="https://picsum.photos/300/306" class="w-100 object-fit-cover" alt="">
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 p-0 bg-primary">
+            <img src="https://picsum.photos/300/307" class="w-100 object-fit-cover" alt="">
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 p-0 bg-primary">
+            <img src="https://picsum.photos/300/307" class="w-100 object-fit-cover" alt="">
+        </div>
+    </div> -->
+
+    <h2>
+        Otra grilla
+    </h2>
+    <div class="row">
+        <div class="col-6">
+            <p>Media informacion</p>
+        </div>
+        <div class="col-6">
+            La otra mitad
+        </div>
+        <!-- de menor a mayor -->
+        <!-- col-x col-sm-x col-md-x col-lg-x col-xl-x -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 bg-danger">
+            Columna
+        </div>
+        <div class="col-12">
+            Columna
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
